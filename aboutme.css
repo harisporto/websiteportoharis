@@ -1,0 +1,123 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: right;
+    margin-right: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.navbar :hover{
+    color: #EEDC1E;
+}
+
+
+.linavbar {
+    padding: 20px;
+    padding-top: 5px;
+  
+}
+
+.linavbar1 {
+    padding: 20px;
+    padding-top: 5px;
+    margin-right: 700px;
+}
+
+.foto {
+    margin-left: 200px;
+    padding-top: 30px;
+}
+
+.konten {
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+footer {
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    display: flex;
+    padding-right: 50px;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.judul {
+    margin-right: 200px;
+    font-size: 25px;
+}
+
+@media (max-width: 768px) {
+
+    html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .linavbar1 {
+        margin-right: 0;
+        padding: 7px;
+    }
+
+    .linavbar {
+        padding: 7px;
+    }
+
+    .konten {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 70px;
+        margin-right: -130px;
+        
+    }
+
+    .foto {
+        margin-left: -150px;
+    }
+
+    .aboutme {
+        line-height: 70px;
+    }
+
+    
+
+   
+}
